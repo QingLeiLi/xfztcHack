@@ -1,0 +1,102 @@
+杂项
+
+
+
+https://ztcwx.myscrm.cn/sub-zxkp-h5/login?activityId=13526&amp;token=yfltcu1628489680&amp;orgcode=zjdcgfadmin&amp;url=https://ztcwx.myscrm.cn/sub-zxkp-h5/room-list?activityId=13526&token=yfltcu1628489680&orgcode=zjdcgfadmin
+
+
+https://ztcwx.myscrm.cn/sub-zxkp-h5/room?token=yfltcu1628489680&activityId=13526&orgcode=zjdcgfadmin&chooseRoomId=9284215&urlRoomFullName=NCPkvY_lroXmpbwtMS0yMy0yMzAx
+
+
+搜索
+
+点击 立即
+
+请求 room/getRandomCode 接口
+
+saveRandomCodeData
+	存储网络请求 data 到 dva 中
+
+confirmOrderShow
+ConfirmOrderDialog
+
+onOrderAgree
+
+onSubmitOrder
+
+1260行
+
+roomList/cleanRoom
+onSubmitOrderOk
+
+1791  e.question
+
+question_option_id
+
+room/submitOrder
+	chooseRoomId: k,
+	activityVersion: T.activityVersion,
+	randomCode: R.randomCode,
+    question_option_id: me
+
+var o = e.data;
+                    switch (o.status) {
+                    case 2:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                        He(o.status);
+                        break;
+                    case 3:
+                        ee(!0);
+                        break;
+                    case 8:
+                        _.m8.push("/pay?token=".concat(w, "&activityId=").concat(f, "&orderId=").concat(o.orderId, "&orgcode=").concat(z));
+                        break;
+                    default:
+                        _.m8.push("/success?token=".concat(w, "&activityId=").concat(f, "&orgcode=").concat(z, "&isBeta=").concat(o.isBeta, "&orderId=").concat(o.orderId));
+                        break
+                    }
+
+
+
+郝天琪
+18701627898
+411522199403120060
+
+
+https://ztcwx.myscrm.cn/sub-zxkp-h5/login?activityId=13526&token=yfltcu1628489680&orgcode=zjdcgfadmin&url=https%3A%2F%2Fztcwx.myscrm.cn%2Fsub-zxkp-h5%2Froom-list%3FactivityId%3D13526%26token%3Dyfltcu1628489680%26orgcode%3Dzjdcgfadmin
+
+https://ztcwx.myscrm.cn/sub-zxkp-h5/room-list?activityId=13526&token=yfltcu1628489680&orgcode=zjdcgfadmin
+
+https://ztcwx.myscrm.cn/sub-zxkp-h5/room?token=yfltcu1628489680&activityId=13526&orgcode=zjdcgfadmin&chooseRoomId=9284215&urlRoomFullName=NCPkvY_lroXmpbwtMS0yMy0yMzAx
+
+
+
+__secdyid=4f04f959ae3c5d2982e5f50dc57e1d55de8137eaa89fc631021635583371; 
+__tracker_user_id__=2451370f879fc20-89e200b79f-f96f3169; 
+last_env=g2; 
+acw_tc=707c9fcf16355852928047868e0a93aab7416ea69d69583ac34657960d3250; 
+PHPSESSID=70tbp95dut1lvl01vm9sd2p3c6; 
+__secdyid=323b84fdfe0f8d98a71a950200ed97b5de8137ea1578d262021635583373
+
+
+"data-testid": "selectRoom",
+	me = ()=>{
+                j && j()
+            }
+
+
+room/getRandomCode
+	chooseRoomId   "9284215"
+	activityVersion   18
+
+choose_room_status
+
+_handleActions
+
+
+立即
+\u7acb
+\u5373
