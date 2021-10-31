@@ -1,0 +1,34 @@
+{
+	"retCode": "0",
+	"retMsg": "",
+	"data": {
+		"question": null,
+		"randomCode": "BV2zsVdladKMyf-lCnCEuE9Wig3VXg9l"
+	},
+	"global": {
+		"roomType": 0,
+		"roomTypeName": "房间",
+		"mode": 0,
+		"batchNameNoticeBar": null,
+		"selectionRoomHeader": {
+			"isShowUserCount": true,
+			"userCount": "457",
+			"timeInfo": {
+				"betaStartDate": "2021年10月31日16:00:00",
+				"regularStartDate": "2021年10月31日20:00:00",
+				"beforeStartBetaTime": 0,
+				"beforeEndBetaTime": 599,
+				"beforeStartRegularTime": 13800,
+				"beforeEndRegularTime": 600,
+				"activityStatus": 1
+			}
+		},
+		"selectionRoomNoticeBar": null,
+		"liveDetail": {
+			"roomId": 0,
+			"isShow": false,
+			"liveStatus": 0
+		},
+		"isPublish": null
+	}
+}

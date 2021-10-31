@@ -8006,9 +8006,13 @@
                     cleanRoom(e) {
                         if (e.ajaxRoomListData) {
                             var t = e.ajaxRoomListData.roomList;
-                            t.map((e=>(e.rooms.map((e=>(e.status = 0,
-                            e))),
-                            e))),
+                            t.map(e=>{
+                                e.rooms.map(e=>{
+                                    e.status = 0;
+                                    return e
+                                })
+                                return e
+                            }),
                             e.ajaxRoomListData.roomList = t
                         }
                     }
